@@ -23,39 +23,39 @@ header {
   border-bottom: 2px solid white;
 }
 
-.Header {
+/* .Header {
   background-color: #010101;
   padding-bottom: 14rem;
-}
+} */
 
 .headerContainer {
   width: 75%;
   margin: 0 auto;
 }
 
-.headMenu {
+/* .headMenu {
   height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-.menuLeft {
+/* .menuLeft {
   align-items: center;
   display: flex;
-}
+} */
 
-.homeLink {
+/* .homeLink {
   text-transform: uppercase;
   font-size: 14px;
   margin-left: 1.5rem;
   color: white;
-}
+} */
 
-.menuLinks {
+/* .menuLinks {
   font-size: 14px;
   float: left;
   display: block;
   padding: 0 12px;
-  color: #FBED2A;
-}
+  color: #fbed2a;
+} */

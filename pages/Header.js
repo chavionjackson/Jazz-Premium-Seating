@@ -5,19 +5,25 @@ import React from "react";
 const Header = () => {
 
   return (
-    <div className="Header">
+    <div className="pb-56 bg-black">
       <div className="headerContainer">
         <header>
-          <div className="headMenu">
-            <div className="menuLeft">
-              <a href="#" className="homeLink">
+          <div className="flex items-center justify-between h-10">
+            <div className="flex items-center">
+              <a href="#" className="m-6 text-sm text-white uppercase">
                 Utah Jazz Premium Seating
               </a>
             </div>
             <nav>
-              <a className="menuLinks">Luxury Suites</a>
-              <a className="menuLinks">Exclusive Clubs</a>
-              <a className="menuLinks">Contact Us</a>
+              <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                Luxury Suites
+              </a>
+              <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                Exclusive Clubs
+              </a>
+              <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                Contact Us
+              </a>
             </nav>
           </div>
         </header>
