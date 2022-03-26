@@ -1,3 +1,4 @@
+import Contact from "./Homepage/Contact";
 import Digital from "./Homepage/Digital";
 import ExclusieClubs from "./Homepage/ExclusieClubs";
 import Header from "./Homepage/Header";
@@ -12,6 +13,7 @@ export default function Home() {
       <Digital />
       <LuxurySuites />
       <ExclusieClubs />
+      <Contact />
     </div>
   );
 }

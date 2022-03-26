@@ -104,3 +104,29 @@ a {
   filter: brightness(50%);
   transition: all 0.25s;
 }
+
+.contactBg {
+  background: #282828;
+}
+
+.footerWrapper {
+  align-items: flex-start !important;
+}
+
+.input {
+  margin-left: 0.2rem;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.inputText {
+  min-height: 1.8rem;
+  border-radius: 5px;
+  width: 33rem;
+  margin-bottom: 0.6rem;
+}
+
+.footerButton {
+  background: #fbed2a;
+}
