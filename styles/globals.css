@@ -42,11 +42,34 @@ a {
 }
 
 .cardLink {
-  font-size: 1.0rem;
+  font-size: 1rem;
   text-transform: uppercase;
   border-radius: 5px;
   font-weight: bold;
   padding: 0.2rem 1rem;
   color: #fbed2a;
   border: 1px solid #fbed2a;
+}
+
+.digTickets {
+  margin-top: -4rem;
+  background-color: #e3e5e3;
+  color: #010101;
+  font-size: 1.2rem;
+  padding: 4rem 0;
+}
+
+.ticketsButton {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 4px 12px;
+  background-color: #fbed2a;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.video {
+  height: 16rem;
+  width: 28rem;
 }
