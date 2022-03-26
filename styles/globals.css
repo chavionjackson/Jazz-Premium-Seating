@@ -73,3 +73,34 @@ a {
   height: 16rem;
   width: 28rem;
 }
+
+.suiteClubCards {
+  flex: 0 0 50%;
+  padding: 7.5px;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  height: 250px;
+  background-color: #282828;
+  color: #fff;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  z-index: 0;
+}
+
+.cardImg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  min-width: 101%;
+  min-height: 101%;
+  z-index: -1;
+  filter: brightness(50%);
+  transition: all 0.25s;
+}

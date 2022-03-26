@@ -1,5 +1,7 @@
 import Digital from "./Homepage/Digital";
+import ExclusieClubs from "./Homepage/ExclusieClubs";
 import Header from "./Homepage/Header";
+import LuxurySuites from "./Homepage/LuxurySuites";
 import Section1 from "./Homepage/Section1";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
       <Header />
       <Section1/>
       <Digital />
+      <LuxurySuites />
+      <ExclusieClubs />
     </div>
   );
 }

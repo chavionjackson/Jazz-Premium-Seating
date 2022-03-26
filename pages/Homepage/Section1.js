@@ -23,7 +23,7 @@ const Section1 = () => {
         </div>
       </div>
       <div className="w-2/5 m-4 bg-black">
-        <Image className="img" alt="luxurySuites" src={clubs} />
+        <Image alt="luxurySuites" src={clubs} />
         <div className="cardText">
           <h2 className="uppercase text-[#fbed2a] text-xl">Exclusive Clubs</h2>
           <p className="pt-4 pb-8 text-base text-white">
