@@ -25,11 +25,28 @@ a {
 }
 
 .button {
-color: #fbed2a;
-font-size: 14px;
-border-radius: 5px;
-border: 1px solid #fbed2a;
-text-transform: uppercase;
-padding: 5px 25px;
-font-weight: bold;
+  color: #fbed2a;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #fbed2a;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  font-weight: bold;
+}
+
+.cardText {
+  width: 85%;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.cardLink {
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.2rem 1rem;
+  color: #fbed2a;
+  border: 1px solid #fbed2a;
 }

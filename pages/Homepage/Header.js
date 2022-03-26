@@ -5,7 +5,7 @@ import React from "react";
 const Header = () => {
 
   return (
-    <div className="pb-56 bg-black">
+    <div className="pb-32 bg-black">
       <div className="headerContainer">
         <header className="border-b-2">
           <div className="flex items-center justify-between h-10">
