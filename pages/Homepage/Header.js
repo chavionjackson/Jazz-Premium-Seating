@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <div className="pb-32 bg-black">
-      <div className="headerContainer">
+      <div className="w-9/12 ml-auto mr-auto">
         <header className="border-b-2">
           <div className="flex items-center justify-between h-10">
             <div className="flex items-center">
@@ -43,7 +43,7 @@ const Header = () => {
               musical acts and family shows, Vivint Arena is the place to meet,
               greet, see and be seen in Utah.
             </p>
-            <a className= "button">Contact Us</a>
+            <a className="text-[#fbed2a] text-sm rounded button uppercase font-bold pt-1.5 pb-1.5 pr-6 pl-6">Contact Us</a>
           </span>
         </div>
       </div>

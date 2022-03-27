@@ -2,9 +2,11 @@ import React from 'react'
 
 const Digital = () => {
   return (
-    <div className="digTickets">
+    <div className="pt-16 pb-16 -mt-16 text-xl text-[#010101] bg-[#e3e5e3]">
       <div className="mt-0 mb-0 ml-36 mr-36">
-        <div className="mb-3 text-2xl font-medium text-black uppercase">Digital Tickets</div>
+        <div className="mb-3 text-2xl font-medium text-black uppercase">
+          Digital Tickets
+        </div>
         <p className="mt-0 mb-4 ml-0 mr-0 text-base">
           All tickets will be digital and accessible in the Utah Jazz + Vivint
           Arena App. Printed tickets will no longer be an option.
@@ -14,7 +16,7 @@ const Digital = () => {
             <p className="mt-0 mb-2 ml-0 mr-0 text-base">
               This move to digital-only has been made for several reasons:
             </p>
-            <ul className='pl-10 mb-3 list-disc'>
+            <ul className="pl-10 mb-3 list-disc">
               <li className="text-base mb-1.5">
                 Helps to prevent fraudulent tickets from being circulated
               </li>
@@ -39,12 +41,15 @@ const Digital = () => {
               contact your account representative.
             </p>
             <p>
-              <a className="ticketsButton">Learn More About Digital Tickets</a>
+              <a className="text-sm bg-[#fbed2a] font-bold pt-1 pb-1 pl-3 pr-3 rounded uppercase ticketsButton">Learn More About Digital Tickets</a>
             </p>
           </div>
           <div className="p-12">
             <div className="videoContainer">
-              <iframe className='video' src="https://www.youtube.com/embed/meGV_vYsjm0?rel=0"></iframe>
+              <iframe
+                className="video"
+                src="https://www.youtube.com/embed/meGV_vYsjm0?rel=0"
+              ></iframe>
             </div>
           </div>
         </div>

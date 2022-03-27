@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <footer className="pt-4 pb-4 contactBg">
+    <footer className="pt-4 pb-4 bg-[#282828]">
       <div className="w-9/12 ml-auto mr-auto">
         <h2 className="text-[#fff] uppercase text-3xl mt-8 mb-8">Contact Us</h2>
         <div className="flex items-center justify-between footerWrapper">
@@ -58,7 +58,7 @@ const Contact = () => {
                 <input className="inputText"></input>
                 <br />
               </div>
-              <button type="submit" className="mb-12 font-bold p-1.5 mt-4 rounded border-none footerButton">
+              <button type="submit" className="mb-12 font-bold p-1.5 mt-4 rounded border-none bg-[#fbed2a]">
                 Submit
               </button>
             </form>

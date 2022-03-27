@@ -19,54 +19,20 @@ a {
   box-sizing: border-box;
 }
 
-.headerContainer {
-  width: 75%;
-  margin: 0 auto;
-}
-
 .button {
-  color: #fbed2a;
-  font-size: 14px;
-  border-radius: 5px;
   border: 1px solid #fbed2a;
-  text-transform: uppercase;
-  padding: 5px 25px;
-  font-weight: bold;
 }
 
 .cardText {
   width: 85%;
-  margin-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
 }
 
 .cardLink {
-  font-size: 1rem;
-  text-transform: uppercase;
-  border-radius: 5px;
-  font-weight: bold;
-  padding: 0.2rem 1rem;
-  color: #fbed2a;
   border: 1px solid #fbed2a;
 }
 
-.digTickets {
-  margin-top: -4rem;
-  background-color: #e3e5e3;
-  color: #010101;
-  font-size: 1.2rem;
-  padding: 4rem 0;
-}
-
 .ticketsButton {
-  font-size: 0.9rem;
-  font-weight: bold;
-  padding: 4px 12px;
-  background-color: #fbed2a;
   border: 1px solid #000;
-  border-radius: 5px;
-  text-transform: uppercase;
 }
 
 .video {
@@ -105,10 +71,6 @@ a {
   transition: all 0.25s;
 }
 
-.contactBg {
-  background: #282828;
-}
-
 .footerWrapper {
   align-items: flex-start !important;
 }
@@ -127,6 +89,3 @@ a {
   margin-bottom: 0.6rem;
 }
 
-.footerButton {
-  background: #fbed2a;
-}
