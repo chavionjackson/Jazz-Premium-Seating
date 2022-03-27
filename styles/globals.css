@@ -89,3 +89,10 @@ a {
   margin-bottom: 0.6rem;
 }
 
+.headingLink {
+  min-width: 28%;
+}
+
+.linkButton {
+  border: 1.5px solid black
+}
