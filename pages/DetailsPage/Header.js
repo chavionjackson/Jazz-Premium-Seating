@@ -4,10 +4,10 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="pb-32">
+    <div className="pb-4">
       <div className="bg-black ">
         <header className="">
-          <div className="flex items-center justify-between h-10 ml-24 mr-24">
+          <div className="flex items-center justify-between h-10 mb-8 ml-24 mr-24">
             <div className="flex items-center">
               <a href="#" className="m-6 text-sm text-white uppercase">
                 Utah Jazz Premium Seating
@@ -31,7 +31,7 @@ const Header = () => {
         <h1 className="text-3xl font-bold uppercase">
           Eide Bailly Suite Level
         </h1>
-        <div className="flex items-center justify-between mr-16 font-bold headingLink">
+        <div className="flex items-center justify-between mr-4 font-bold headingLink">
           <a className="pt-1 pb-1 pl-4 pr-4 text-xl rounded-md linkButton">
             Download Info
           </a>

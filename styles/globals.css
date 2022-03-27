@@ -96,3 +96,7 @@ a {
 .linkButton {
   border: 1.5px solid black
 }
+
+.carouselImg {
+  object-fit: cover;
+}
