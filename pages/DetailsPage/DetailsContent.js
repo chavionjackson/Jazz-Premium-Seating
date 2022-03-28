@@ -6,6 +6,7 @@ import {
 } from "react-icons/md";
 import Benefits from "./DetailsContent/Benefits";
 import Parking from "./DetailsContent/Parking";
+import PossibleUses from "./DetailsContent/PossibleUses";
 
 const DetailsContent = () => {
   return (
@@ -49,6 +50,7 @@ const DetailsContent = () => {
         </div>
         <Benefits />
         <Parking />
+        <PossibleUses />
       </div>
     </div>
   );
