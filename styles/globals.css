@@ -138,3 +138,10 @@ a {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.usesGrid {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.usesSub {
+  border-bottom: 1px solid #fff;
+}
