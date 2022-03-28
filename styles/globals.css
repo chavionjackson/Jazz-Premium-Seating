@@ -100,3 +100,23 @@ a {
 .carouselImg {
   object-fit: cover;
 }
+
+.infoContainer {
+  border-bottom: 1px solid white;
+}
+
+.infoHeading {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.aboutContent {
+  display: flex;
+  align-items: inherit;
+}
+
+.infoText {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}

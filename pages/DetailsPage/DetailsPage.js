@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from './Carousel'
+import DetailsContent from './DetailsContent'
 import Header from './Header'
 
 const DetailsPage = () => {
@@ -7,6 +8,7 @@ const DetailsPage = () => {
     <div>
         <Header />
         <Carousel />
+        <DetailsContent />
     </div>
   )
 }
