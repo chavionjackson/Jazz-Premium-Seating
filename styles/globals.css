@@ -120,3 +120,12 @@ a {
   padding-bottom: 1rem;
   font-weight: 400;
 }
+
+.benefitsContainer {
+  border-bottom: 1px solid #fff;
+}
+
+.benefitsTable {
+  grid-template-columns: repeat(2, 1fr [col-start]);
+  grid-template-rows: repeat(5, 1fr [row-start]);
+}

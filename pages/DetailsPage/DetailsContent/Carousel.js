@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import carousel from "../Homepage/assets/carousel.jpg";
-import lexus from "../Homepage/assets/lexus.jpg";
-import wcf from "../Homepage/assets/wcf.jpg";
+import carousel from "../../Homepage/assets/carousel.jpg";
+import lexus from "../../Homepage/assets/lexus.jpg";
+import wcf from "../../Homepage/assets/wcf.jpg";
 import {
   FaChevronLeft,
   FaChevronRight,

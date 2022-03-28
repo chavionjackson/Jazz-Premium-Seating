@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from './Carousel'
+import Carousel from './DetailsContent/Carousel'
 import DetailsContent from './DetailsContent'
 import Header from './Header'
 
