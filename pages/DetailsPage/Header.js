@@ -9,7 +9,7 @@ const Header = () => {
         <header className="">
           <div className="flex items-center justify-between h-10 mb-8 ml-24 mr-24">
             <div className="flex items-center">
-              <a href="#" className="m-6 text-sm text-white uppercase">
+              <a href="/Homepage/HomePage" className="m-6 text-sm text-white uppercase">
                 Utah Jazz Premium Seating
               </a>
             </div>

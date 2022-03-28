@@ -5,6 +5,7 @@ import {
   MdLightbulbOutline,
 } from "react-icons/md";
 import Benefits from "./DetailsContent/Benefits";
+import Parking from "./DetailsContent/Parking";
 
 const DetailsContent = () => {
   return (
@@ -47,6 +48,7 @@ const DetailsContent = () => {
           </div>
         </div>
         <Benefits />
+        <Parking />
       </div>
     </div>
   );
