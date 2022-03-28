@@ -18,7 +18,7 @@ const DetailsContent = () => {
             <span>
               <h2 className="infoHeading">Location</h2>
               <p className="infoText">Suite Level(Level 4)</p>
-              <a className="text-base font-bold text-[black] bg-[#fbed2a] rounded pt-1 pb-1 pr-4 pl-4 cursor-pointer no-underline">
+              <a className="text-sm font-bold text-[black] bg-[#fbed2a] rounded pt-1 pb-1 pr-4 pl-4 cursor-pointer no-underline">
                 View Arena Map
               </a>
             </span>

@@ -116,7 +116,7 @@ a {
 }
 
 .infoText {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding-bottom: 1rem;
   font-weight: 400;
 }
@@ -129,3 +129,12 @@ a {
   grid-template-columns: repeat(2, 1fr [col-start]);
   grid-template-rows: repeat(5, 1fr [row-start]);
 }
+
+.parkingContainer {
+  border-bottom: 1px solid #fff;
+}
+
+.contentsContainer {
+  grid-template-columns: repeat(2, 1fr);
+}
+
