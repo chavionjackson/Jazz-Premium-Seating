@@ -148,12 +148,12 @@ a {
 
 .foodSelection {
   background-image: url('../pages/Homepage/assets/foodselection.jpg');
-  height: 37rem;
+  height: 45rem;
   background-position: left 30%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .foodInfo {
-  top: 88%;
+  top: 81%;
 }

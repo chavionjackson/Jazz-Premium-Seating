@@ -3,6 +3,7 @@ import Carousel from './DetailsContent/Carousel'
 import DetailsContent from './DetailsContent'
 import Header from './Header'
 import FoodSelection from './FoodSelection'
+import Digital from '../Homepage/Digital'
 
 const DetailsPage = () => {
   return (
@@ -11,6 +12,7 @@ const DetailsPage = () => {
         <Carousel />
         <DetailsContent />
         <FoodSelection />
+        <Digital />
     </div>
   )
 }
