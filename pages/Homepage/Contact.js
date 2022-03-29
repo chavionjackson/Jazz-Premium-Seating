@@ -58,7 +58,7 @@ const Contact = () => {
                 <input className="inputText"></input>
                 <br />
               </div>
-              <button type="submit" className="mb-12 font-bold p-1.5 mt-4 rounded border-none bg-[#fbed2a]">
+              <button type="submit" className="text-xl mb-12 font-bold pt-1.5 pb-1.5 pr-4 pl-4 mt-4 rounded border-none bg-[#fbed2a]">
                 Submit
               </button>
             </form>
