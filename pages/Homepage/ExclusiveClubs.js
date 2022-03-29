@@ -18,7 +18,7 @@ const ExclusieClubs = () => {
         </div>
         <div className="flex flex-wrap -m-2">
           <div className="suiteClubCards">
-            <a href="#" className="card">
+            <a href="/DetailsPage/DetailsPage" className="card">
               <Image
                 sizes="100vw"
                 layout="fill"
@@ -30,7 +30,7 @@ const ExclusieClubs = () => {
             </a>
           </div>
           <div className="suiteClubCards">
-            <a href="#" className="card">
+            <a href="/DetailsPage/DetailsPage" className="card">
               <Image
                 layout="fill"
                 className="cardImg"
@@ -42,26 +42,26 @@ const ExclusieClubs = () => {
           </div>
 
           <div className="suiteClubCards">
-            <a href="#" className="card">
+            <a href="/DetailsPage/DetailsPage" className="card">
               <Image layout="fill" className="cardImg" alt="" src={wcf} />
               WCF Insurance Club
             </a>
           </div>
 
           <div className="suiteClubCards">
-            <a href="#" className="card">
+            <a href="/DetailsPage/DetailsPage" className="card">
               <Image layout="fill" className="cardImg" alt="" src={lexus} />
               Lexus Club
             </a>
           </div>
           <div className="suiteClubCards">
-            <a href="#" className="card">
+            <a href="/DetailsPage/DetailsPage" className="card">
               <Image layout="fill" className="cardImg" alt="" src={courtclub} />
               Courtside Club Presented By Entrata
             </a>
           </div>
           <div className="suiteClubCards">
-            <a href="#" className="card">
+            <a href="/DetailsPage/DetailsPage" className="card">
               <Image layout="fill" className="cardImg" alt="" src={legends} />
               Legends Club Presented By Lgcy Power
             </a>
