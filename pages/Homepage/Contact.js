@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaPhoneSquareAlt, FaEnvelope } from "react-icons/fa";
+
 
 const Contact = () => {
   return (
@@ -7,11 +9,14 @@ const Contact = () => {
         <h2 className="text-[#fff] uppercase text-3xl mt-8 mb-8">Contact Us</h2>
         <div className="flex items-center justify-between footerWrapper">
           <div className="w-2/5">
-            <div className="mb-8 leading-8">
+            <div className="flex items-baseline gap-2 mb-4 leading-8">
+              <FaPhoneSquareAlt className="text-[#fbed2a] text-lg" />
               <a href="#" className="mb-4 text-lg font-bold text-[#fff]">
                 801-325-2201
               </a>
-              <br />
+            </div>
+            <div className="flex items-baseline gap-2 mb-8 leading-8">
+              <FaEnvelope className="text-[#fbed2a] text-lg" />
               <a href="#" className="mb-4 text-lg font-bold text-[#fff]">
                 bizdev@utahjazz.com
               </a>
@@ -58,7 +63,10 @@ const Contact = () => {
                 <input className="inputText"></input>
                 <br />
               </div>
-              <button type="submit" className="text-xl mb-12 font-bold pt-1.5 pb-1.5 pr-4 pl-4 mt-4 rounded border-none bg-[#fbed2a]">
+              <button
+                type="submit"
+                className="text-xl mb-12 font-bold pt-1.5 pb-1.5 pr-4 pl-4 mt-4 rounded border-none bg-[#fbed2a]"
+              >
                 Submit
               </button>
             </form>

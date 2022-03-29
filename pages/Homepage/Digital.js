@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Digital = () => {
   return (
@@ -41,7 +41,9 @@ const Digital = () => {
               contact your account representative.
             </p>
             <p>
-              <a className="text-sm bg-[#fbed2a] font-bold pt-1 pb-1 pl-3 pr-3 rounded uppercase ticketsButton">Learn More About Digital Tickets</a>
+              <a className="text-sm bg-[#fbed2a] font-bold pt-1 pb-1 pl-3 pr-3 rounded uppercase ticketsButton">
+                Learn More About Digital Tickets
+              </a>
             </p>
           </div>
           <div className="p-12">
@@ -56,6 +58,6 @@ const Digital = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Digital
+export default Digital;

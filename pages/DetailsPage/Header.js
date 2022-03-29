@@ -1,6 +1,5 @@
 import React from "react";
-// import Image from 'next/image'
-// import { logo } from '../assets/Jazz Logo.png'
+import { AiOutlineFilePdf } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -32,7 +31,8 @@ const Header = () => {
           Eide Bailly Suite Level
         </h1>
         <div className="flex items-center justify-between mr-4 font-bold headingLink">
-          <a className="pt-1 pb-1 pl-4 pr-4 text-xl rounded-md linkButton">
+          <a className="inline-flex pt-1 pb-1 pl-4 pr-4 text-xl align-baseline rounded-md linkButton">
+          <AiOutlineFilePdf className="mt-1 mr-2" />
             Download Info
           </a>
           <a className="pt-1 pb-1 pl-4 pr-4 text-xl rounded-md linkButton">
