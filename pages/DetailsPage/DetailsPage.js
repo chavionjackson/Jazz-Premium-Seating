@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from './DetailsContent/Carousel'
 import DetailsContent from './DetailsContent'
 import Header from './Header'
+import FoodSelection from './FoodSelection'
 
 const DetailsPage = () => {
   return (
@@ -9,6 +10,7 @@ const DetailsPage = () => {
         <Header />
         <Carousel />
         <DetailsContent />
+        <FoodSelection />
     </div>
   )
 }
