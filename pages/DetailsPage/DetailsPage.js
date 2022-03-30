@@ -8,15 +8,15 @@ import Contact from '../Homepage/Contact'
 
 const DetailsPage = () => {
   return (
-    <div>
-        <Header />
-        <Carousel />
-        <DetailsContent />
-        <FoodSelection />
-        <Digital />
-        <Contact />
+    <div className="sm:-mr-96">
+      <Header />
+      <Carousel />
+      <DetailsContent />
+      <FoodSelection />
+      <Digital />
+      <Contact />
     </div>
-  )
+  );
 }
 
 export default DetailsPage
