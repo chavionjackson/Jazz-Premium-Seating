@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineFilePdf } from "react-icons/ai";
 
@@ -8,20 +9,28 @@ const Header = () => {
         <header className="">
           <div className="flex items-center justify-between h-10 mb-8 ml-24 mr-24">
             <div className="flex items-center">
-              <a href="/Homepage/HomePage" className="m-6 text-sm text-white uppercase">
-                Utah Jazz Premium Seating
-              </a>
+              <Link href="/Homepage/HomePage">
+                <a className="m-6 text-sm text-white uppercase">
+                  Utah Jazz Premium Seating
+                </a>
+              </Link>
             </div>
             <nav>
-              <a className="px-3 float-left block text-sm text-[#fbed2a]">
-                Luxury Suites
-              </a>
-              <a className="px-3 float-left block text-sm text-[#fbed2a]">
-                Exclusive Clubs
-              </a>
-              <a className="px-3 float-left block text-sm text-[#fbed2a]">
-                Contact Us
-              </a>
+              <Link href="/DetailsPage/DetailsPage">
+                <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                  Luxury Suites
+                </a>
+              </Link>
+              <Link href="/DetailsPage/DetailsPage">
+                <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                  Exclusive Clubs
+                </a>
+              </Link>
+              <Link href="">
+                <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                  Contact Us
+                </a>
+              </Link>
             </nav>
           </div>
         </header>
@@ -31,13 +40,13 @@ const Header = () => {
           Eide Bailly Suite Level
         </h1>
         <div className="flex items-center justify-between mr-4 font-bold headingLink">
-          <a className="inline-flex pt-1 pb-1 pl-4 pr-4 text-xl align-baseline rounded-md linkButton">
-          <AiOutlineFilePdf className="mt-1 mr-2" />
+          <button className="inline-flex pt-1 pb-1 pl-4 pr-4 text-xl font-bold align-baseline rounded-md linkButton">
+            <AiOutlineFilePdf className="mt-1 mr-2" />
             Download Info
-          </a>
-          <a className="pt-1 pb-1 pl-4 pr-4 text-xl rounded-md linkButton">
+          </button>
+          <button className="pt-1 pb-1 pl-4 pr-4 text-xl font-bold rounded-md linkButton">
             Contact Us
-          </a>
+          </button>
         </div>
       </div>
     </div>

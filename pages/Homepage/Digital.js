@@ -41,9 +41,9 @@ const Digital = () => {
               contact your account representative.
             </p>
             <p>
-              <a className="text-sm bg-[#fbed2a] font-bold pt-1 pb-1 pl-3 pr-3 rounded uppercase ticketsButton">
+              <button className="text-sm bg-[#fbed2a] font-bold pt-1 pb-1 pl-3 pr-3 rounded uppercase ticketsButton">
                 Learn More About Digital Tickets
-              </a>
+              </button>
             </p>
           </div>
           <div className="p-12">

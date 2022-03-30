@@ -15,9 +15,9 @@ const Parking = () => {
               VIP parking in the Park Place lot located right next to Vivint
               Smart Home Arena
             </p>
-            <a className="text-sm font-bold text-[black] bg-[#fbed2a] rounded pt-1 pb-1 pr-4 pl-4 cursor-pointer no-underline">
+            <button className="text-sm font-bold text-[black] bg-[#fbed2a] rounded pt-1 pb-1 pr-4 pl-4 cursor-pointer no-underline">
               View Parking Map
-            </a>
+            </button>
           </span>
         </div>
         <div className="flex">
@@ -27,9 +27,9 @@ const Parking = () => {
               Easy check-in: Talk to the host at any suite level (level 4)
               entrance to check-in
             </p>
-            <a className="text-sm font-bold text-[black] bg-[#fbed2a] rounded pt-1 pb-1 pr-4 pl-4 cursor-pointer no-underline">
+            <button className="text-sm font-bold text-[black] bg-[#fbed2a] rounded pt-1 pb-1 pr-4 pl-4 cursor-pointer no-underline">
               View Check-in Locations
-            </a>
+            </button>
           </span>
         </div>
       </div>

@@ -4,27 +4,34 @@ import Link from "next/link";
 // import { logo } from '../assets/Jazz Logo.png'
 
 const Header = () => {
-
   return (
     <div className="pb-32 bg-black">
       <div className="w-9/12 ml-auto mr-auto">
         <header className="border-b-2">
           <div className="flex items-center justify-between h-10">
             <div className="flex items-center">
-              <a href="#" className="m-6 text-sm text-white uppercase">
-                Utah Jazz Premium Seating
-              </a>
+              <Link href="#">
+                <a className="m-6 text-sm text-white uppercase">
+                  Utah Jazz Premium Seating
+                </a>
+              </Link>
             </div>
             <nav>
-              <a className="px-3 float-left block text-sm text-[#fbed2a]">
-                Luxury Suites
-              </a>
-              <a className="px-3 float-left block text-sm text-[#fbed2a]">
-                Exclusive Clubs
-              </a>
-              <a className="px-3 float-left block text-sm text-[#fbed2a]">
-                Contact Us
-              </a>
+              <Link href="/DetailsPage/DetailsPage">
+                <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                  Luxury Suites
+                </a>
+              </Link>
+              <Link href="/DetailsPage/DetailsPage">
+                <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                  Exclusive Clubs
+                </a>
+              </Link>
+              <Link href="">
+                <a className="px-3 float-left block text-sm text-[#fbed2a]">
+                  Contact Us
+                </a>
+              </Link>
             </nav>
           </div>
         </header>
@@ -44,7 +51,9 @@ const Header = () => {
               musical acts and family shows, Vivint Arena is the place to meet,
               greet, see and be seen in Utah.
             </p>
-            <a className="text-[#fbed2a] text-sm rounded button uppercase font-bold pt-1.5 pb-1.5 pr-6 pl-6">Contact Us</a>
+            <button className="text-[#fbed2a] text-sm rounded button uppercase font-bold pt-1.5 pb-1.5 pr-6 pl-6">
+              Contact Us
+            </button>
           </span>
         </div>
       </div>

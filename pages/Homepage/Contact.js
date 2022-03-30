@@ -11,15 +11,15 @@ const Contact = () => {
           <div className="w-2/5">
             <div className="flex items-baseline gap-2 mb-4 leading-8">
               <FaPhoneSquareAlt className="text-[#fbed2a] text-lg" />
-              <a href="#" className="mb-4 text-lg font-bold text-[#fff]">
+              <span href="#" className="mb-4 text-lg font-bold text-[#fff]">
                 801-325-2201
-              </a>
+              </span>
             </div>
             <div className="flex items-baseline gap-2 mb-8 leading-8">
               <FaEnvelope className="text-[#fbed2a] text-lg" />
-              <a href="#" className="mb-4 text-lg font-bold text-[#fff]">
+              <span href="#" className="mb-4 text-lg font-bold text-[#fff]">
                 bizdev@utahjazz.com
-              </a>
+              </span>
             </div>
             <p className="text-base text-[#fff] leading-6">
               With options like single-game tickets, suite rentals and special

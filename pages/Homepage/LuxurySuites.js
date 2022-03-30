@@ -1,10 +1,10 @@
-import React from 'react'
-import Image from 'next/image'
-import eidebailly from './assets/eidebailly.jpg'
+import React from "react";
+import Image from "next/image";
+import eidebailly from "./assets/eidebailly.jpg";
 import udo from "./assets/udo.jpg";
 import loge from "./assets/loge.jpg";
 import courtside from "./assets/courtside.jpg";
-
+import Link from "next/link";
 
 const LuxurySuites = () => {
   return (
@@ -15,41 +15,53 @@ const LuxurySuites = () => {
         </div>
         <div className="flex flex-wrap -m-2">
           <div className="suiteClubCards">
-            <a href="/DetailsPage/DetailsPage" className="card">
-              <Image
-                sizes="100vw"
-                layout="fill"
-                className="cardImg"
-                alt=""
-                src={eidebailly}
-              />
-              Eide Bailly Suite Level
-            </a>
+            <Link href="/DetailsPage/DetailsPage">
+              <span className="card">
+                <Image
+                  layout="fill"
+                  className="cardImg"
+                  alt=""
+                  src={eidebailly}
+                />
+                Eide Bailly Suite
+              </span>
+            </Link>
           </div>
           <div className="suiteClubCards">
-            <a href="/DetailsPage/DetailsPage" className="card">
-              <Image layout="fill" className="cardImg" alt="" src={udo} />
-              Level 3 Udo Lounge
-            </a>
-          </div>
-
-          <div className="suiteClubCards">
-            <a href="/DetailsPage/DetailsPage" className="card">
-              <Image layout="fill" className="cardImg" alt="" src={loge} />
-              Loge Boxes
-            </a>
+            <Link href="/DetailsPage/DetailsPage">
+              <span className="card">
+                <Image layout="fill" className="cardImg" alt="" src={udo} />
+                Level 3 Udo Lounge
+              </span>
+            </Link>
           </div>
 
           <div className="suiteClubCards">
-            <a href="/DetailsPage/DetailsPage" className="card">
-              <Image layout="fill" className="cardImg" alt="" src={courtside} />
-              Courtside Suites
-            </a>
+            <Link href="/DetailsPage/DetailsPage">
+              <span className="card">
+                <Image layout="fill" className="cardImg" alt="" src={loge} />
+                Loge Boxes
+              </span>
+            </Link>
+          </div>
+
+          <div className="suiteClubCards">
+            <Link href="/DetailsPage/DetailsPage">
+              <span className="card">
+                <Image
+                  layout="fill"
+                  className="cardImg"
+                  alt=""
+                  src={courtside}
+                />
+                Courtside Suites
+              </span>
+            </Link>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default LuxurySuites
+export default LuxurySuites;
