@@ -1,6 +1,6 @@
 import React from "react";
 import { MdCheckCircle } from "react-icons/md";
-import Data from "./DetailsData";
+import Data from "../../../AppData/DetailsData";
 
 
 const Benefits = () => {
