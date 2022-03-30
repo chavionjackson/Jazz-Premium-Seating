@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import suites from "./assets/suites.jpg";
 import clubs from "./assets/clubs.jpg";
+import Link from "next/link";
 
 const Section1 = () => {
   return (
@@ -18,12 +19,13 @@ const Section1 = () => {
             exciting way to entertain in Utah by becoming a Vivint Arena luxury
             suite holder.
           </p>
-          <a
-            href="/DetailsPage/DetailsPage"
-            className="cardLink text-[#fbed2a] pt-1 pl-4 pr-4 pb-1 text-base uppercase rounded-md font-bold"
-          >
-            Learn More
-          </a>
+          <Link href="/DetailsPage/DetailsPage">
+            <a
+              className="cardLink text-[#fbed2a] pt-1 pl-4 pr-4 pb-1 text-base uppercase rounded-md font-bold"
+            >
+              Learn More
+            </a>
+          </Link>
         </div>
       </div>
       <div className="w-2/5 m-4 bg-black">
@@ -38,12 +40,13 @@ const Section1 = () => {
             most unique and exciting way to entertain in Utah with one of our
             exclusive club memberships at Vivint Arena.
           </p>
-          <a
-            href="/DetailsPage/DetailsPage"
-            className="cardLink text-[#fbed2a] pt-1 pl-4 pr-4 pb-1 text-base uppercase rounded-md font-bold"
-          >
-            Learn More
-          </a>
+          <Link href="/DetailsPage/DetailsPage">
+            <a
+              className="cardLink text-[#fbed2a] pt-1 pl-4 pr-4 pb-1 text-base uppercase rounded-md font-bold"
+            >
+              Learn More
+            </a>
+          </Link>
         </div>
       </div>
     </div>
