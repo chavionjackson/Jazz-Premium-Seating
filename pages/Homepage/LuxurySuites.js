@@ -15,7 +15,7 @@ const LuxurySuites = () => {
         </div>
         <div className="flex flex-wrap -m-2">
           <div className="suiteClubCards">
-            <Link href="/DetailsPage/DetailsPage">
+            <Link passHref href="/DetailsPage/DetailsPage">
               <span className="card">
                 <Image
                   layout="fill"
@@ -28,7 +28,7 @@ const LuxurySuites = () => {
             </Link>
           </div>
           <div className="suiteClubCards">
-            <Link href="/DetailsPage/DetailsPage">
+            <Link passHref href="/DetailsPage/DetailsPage">
               <span className="card">
                 <Image layout="fill" className="cardImg" alt="" src={udo} />
                 Level 3 Udo Lounge
@@ -37,7 +37,7 @@ const LuxurySuites = () => {
           </div>
 
           <div className="suiteClubCards">
-            <Link href="/DetailsPage/DetailsPage">
+            <Link passHref href="/DetailsPage/DetailsPage">
               <span className="card">
                 <Image layout="fill" className="cardImg" alt="" src={loge} />
                 Loge Boxes
@@ -46,7 +46,7 @@ const LuxurySuites = () => {
           </div>
 
           <div className="suiteClubCards">
-            <Link href="/DetailsPage/DetailsPage">
+            <Link passHref href="/DetailsPage/DetailsPage">
               <span className="card">
                 <Image
                   layout="fill"
