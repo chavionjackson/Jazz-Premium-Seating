@@ -8,7 +8,7 @@ import Contact from '../Homepage/Contact'
 
 const DetailsPage = () => {
   return (
-    <div className="sm:-mr-96">
+    <div>
       <Header />
       <Carousel />
       <DetailsContent />

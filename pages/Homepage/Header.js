@@ -1,7 +1,5 @@
 import React from "react";
 import Link from "next/link";
-// import Image from 'next/image'
-// import { logo } from '../assets/Jazz Logo.png'
 
 const Header = () => {
   return (
@@ -10,7 +8,7 @@ const Header = () => {
         <header className="border-b-2">
           <div className="flex items-center justify-between h-10">
             <div className="flex items-center">
-              <Link href="#">
+              <Link href="test">
                 <a className="m-6 text-sm text-white uppercase">
                   Utah Jazz Premium Seating
                 </a>

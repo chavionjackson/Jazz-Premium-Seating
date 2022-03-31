@@ -9,7 +9,7 @@ import Section1 from "./Section1";
 
 const HomePage = () => {
   return (
-    <div className='sm:-mr-96'>
+    <div>
       <Header />
       <Section1 />
       <Digital />
